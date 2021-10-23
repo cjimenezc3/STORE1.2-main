@@ -1,11 +1,9 @@
 
-
 <?php
-
-$host = 'storegrupo33.database.windows.net';
-$username = 'storeadmin';
-$password = 'Thebest2527';
-$db_name = 'store';
+define("USER", "storeadmin");
+define("SERVER", "storegrupo33.database.windows.net");
+define("BD", "store");
+define("PASS", "Thebest2527");
 
 //Initializes MySQLi
 $conn = mysqli_init();
@@ -22,20 +20,9 @@ if (mysqli_connect_errno())
 }
 
 
-
-
-
-
 /*
 
 
-
-
-<?php
-define("USER", "storeadmin");
-define("SERVER", "storegrupo33.database.windows.net");
-define("BD", "store");
-define("PASS", "Thebest2527");
 
 
 
