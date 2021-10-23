@@ -6,8 +6,8 @@ define("PASS", "Thebest2527");
 
 
 
-/*<?php
+/* <?php
 define("USER", "root");
 define("SERVER", "localhost");
 define("BD", "store");
-define("PASS", "Thebest2527");
+define("PASS", "Thebest2527");*/
