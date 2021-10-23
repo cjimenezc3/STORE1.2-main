@@ -7,40 +7,13 @@
 -- Versión del servidor: 10.1.24-MariaDB
 -- Versión de PHP: 7.1.6
 
---SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 
 
-<?php
-
-$host = 'storegrupo33.database.windows.net';
-$username = 'storeadmin';
-$password = 'Thebest2527';
-$db_name = 'store';
-
-//Initializes MySQLi
-$conn = mysqli_init();
-
-//mysqli_ssl_set($conn,NULL,NULL, "/var/www/html/DigiCertGlobalRootG2.crt.pem", NULL, NULL);
-
-// Establish the connection
-mysqli_real_connect($conn, 'storegrupo33.database.windows.net', 'storeadmin', 'Thebest2527', 'store', 1433, NULL, MYSQLI_CLIENT_SSL);
-
-//If connection failed, show the error
-if (mysqli_connect_errno())
-{
-    die('Failed to connect to MySQL: '.mysqli_connect_error());
-}
-
-
-
-
-
-
-/*
 SET SQL_MODE = "storegrupo33.database.windows.net";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
-SET time_zone = "+00:00";*/
+SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
